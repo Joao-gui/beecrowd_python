@@ -1,4 +1,6 @@
 # beecrowd_python
 Exercises Beecrowd Python
+https://judge.beecrowd.com/pt
 
-List 1 (Beginer)
+
+Problems List 1 (Beginer)
