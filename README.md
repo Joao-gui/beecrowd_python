@@ -18,6 +18,6 @@ Para mais informações, acesse o [Beecrowd](https://judge.beecrowd.com/), que p
 
 Beecrowd is a competitive programming platform with a global community of developers. Within the platform, you'll find a repository of analytical and programming problems, where you can solve them in more than 20 different languages. In the past, the platform was called “URI Online Judge”. When doing an exercise, a test submission is made and the user gets an answer as to whether the code was successfully accepted or did not meet the specifications.
 
-This repository exists to save my progress on this journey and, of course, as a means of helping anyone who needs it or has run into problems. I'll be updating it as I progress with a focus on PYTHON
+This repository exists to save my progress on this journey and, of course, as a means of helping anyone who needs it or has run into problems. I'll be updating it as I progress with a focus on PYTHON.
 
 For more information, visit [Beecrowd](https://judge.beecrowd.com/), which has versions in Portuguese, English and Spanish.
