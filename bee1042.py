@@ -8,11 +8,19 @@ A entrada contem três números inteiros.
 Saída
 Imprima a saída conforme foi especificado.
 '''
-valor_int = map(int, input())
+valor_a, valor_b, valor_c = map(int, input().split())
 
-print(valor_int)
-# print()
-# valor_crescente = sorted(valor_int)
+valor_inicial = [valor_a, valor_b, valor_c]
+valor_crescente = sorted(numero for numero in valor_inicial)
+
+# print(valor_inicial)
 # print(valor_crescente)
 
-# Parei aqui
+# Trsnforma Lista em linhas
+for nuemeros_crescente in valor_crescente:
+    print(nuemeros_crescente)
+
+print()
+
+for numeros_inicial in valor_inicial:
+    print(numeros_inicial)
