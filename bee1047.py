@@ -23,5 +23,3 @@ def calculo_minutos_horas(hora_inicial, minuto_inicial, hora_final, minuto_final
 hora_i, minuto_i, hora_f, minuto_f = map(int, input().split())
 horas, minutos = calculo_minutos_horas(hora_i, minuto_i, hora_f, minuto_f)
 print(f'O JOGO DUROU {horas} HORA(S) E {minutos} MINUTO(S)')
-
-# Corrigir erro quando da 59 minutos e aparece 1H, entrada exemplo 7 10 8 9
