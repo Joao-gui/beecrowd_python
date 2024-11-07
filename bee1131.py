@@ -20,3 +20,34 @@ Após cada leitura dos gols, deve ser impressa a mensagem "Novo grenal (1-sim 2-
 Quando o algoritmo for encerrado devem ser mostradas as estatísticas conforme a descrição apresentada acima. 
 Obs: a palavra "Gremio" deve ser impressa sem acento, conforme o exemplo abaixo.
 '''
+cont_grenal = 0
+gols_inter = 0
+gols_gremio = 0
+empates = 0
+while True:
+    x ,y = map(int, input().split())
+    t = 0
+    cont_grenal += 1
+    if x > y:
+        gols_inter += 1
+    elif x < y:
+        gols_gremio += 1
+    else:
+        empates += 1
+    while True:
+        print('Novo grenal (1-sim 2-nao)')
+        t = int(input())
+        if (t == 1 or t == 2):
+            break
+    if (t == 2):
+        print(f'{cont_grenal} grenais')
+        print(f'Inter:{gols_inter}')
+        print(f'Gremio:{gols_gremio}')
+        print(f'Empates:{empates}')
+        if gols_inter > gols_gremio:
+            print('Inter venceu mais')
+        elif gols_gremio > gols_inter:
+            print('Gremio venceu mais')
+        elif gols_gremio == gols_inter:
+            print('Nao houve vencedor')
+        break
