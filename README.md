@@ -1,5 +1,5 @@
 # [PT-BR]
-# 🐝 Beecrowd - URI Onlune Judge
+# 🐝 Beecrowd - URI Online Judge
 
 ## 📕 Sobre a Beecrowd
 
@@ -12,7 +12,7 @@ Para mais informações, acesse o [Beecrowd](https://judge.beecrowd.com/), que p
 ---
 
 # [ENG]
-# 🐝 Beecrowd - URI Onlune Judge
+# 🐝 Beecrowd - URI Online Judge
 
 ## 📕 About Beecrowd
 
