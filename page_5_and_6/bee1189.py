@@ -1,0 +1,36 @@
+'''
+Leia um caractere maiúsculo, que indica uma operação que deve ser realizada e uma matriz M[12][12].
+Em seguida, calcule e mostre a soma ou a média considerando somente aqueles elementos que estão na 
+área esquerda da matriz, conforme ilustrado abaixo (área verde).
+
+Entrada
+
+A primeira linha de entrada contem um único caractere Maiúsculo O ('S' ou 'M'), 
+indicando a operação (Soma ou Média) que deverá ser realizada com os elementos da matriz. 
+Seguem os 144 valores de ponto flutuante que compõem a matriz.
+
+Saída
+
+Imprima o resultado solicitado (a soma ou média), com 1 casa após o ponto decimal.
+'''
+op = input().strip()
+M = []
+
+for i in range(12):
+    linha = []
+    for j in range(12):
+        linha.append(float(input()))
+    M.append(linha)
+
+regiao = []
+
+for i in range(12):
+    for j in range(12):
+        if j < i < (11 - j):
+            regiao.append(M[i][j])
+
+soma = sum(regiao)
+if op == "S":
+    print(f"{soma:.1f}")
+else:
+    print(f"{soma/len(regiao):.1f}")
